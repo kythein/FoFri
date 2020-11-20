@@ -1,0 +1,177 @@
+/* https://colorhunt.co/palette/220258 */
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-Bold', sans-serif;
+}
+
+p{
+  color: #797a7e;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Download Buttons */
+.downloadBtn{
+  margin: 5% 3% 5% 0;
+}
+
+/* Features */
+.featureCol{
+  padding: 5%;
+}
+
+.featureIcon{
+  color: #ffdd93;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.featureIcon:hover{
+  color: #ffa45b;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+#features{
+  position: relative;
+  z-index: 1;
+   /* margin: 7rem 15rem; */
+}
+
+/* Footer */
+.foot-icon{
+  margin: 0 1% 2%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+}
+
+.navbar-light .navbar-brand{
+  color: #7e7474;
+}
+
+/* Press */
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#press{
+  background-color: #f3eac2;
+  padding-bottom: 3%;
+}
+
+/* Pricing */
+#pricing{
+  padding: 6.25rem;
+}
+
+.pricing-col{
+  padding: 3% 4%;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-title{
+  font-size: 1.5rem;
+}
+
+/* Sessions */
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.colored-section{
+  background-color: #f5b461;
+  color: #7e7474;
+}
+
+.white-section{
+  background-color: white;
+}
+
+/* Testimonials */
+
+.carousel-indicators{
+  position: absolute;
+  bottom: 1.5rem;
+}
+
+.carousel{
+  height: 34rem;
+}
+
+.testimonial-image{
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Title */
+.title-image{
+  position: absolute;
+  transform: rotate(25deg);
+  right: 30%;
+  width: 60%;
+}
+
+#title .container-fluid{
+  padding: 3% 15% 12%;
+}
+
+.title-heading {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#title {
+  background-color: #f3eac2;
+  color: #7e7474;
+  text-align: left;
+}
+
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+  #title {
+    text-align: center;
+  }
+}
